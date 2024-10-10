@@ -7,4 +7,12 @@ repos:
       - id: terraform_tflint
       # - id: terraform_tfsec
       - id: terraform_docs
-        args: ["--output-file", "README.md", "./mymodule/path"]
+        # args: ["--output-file", "README.md", "./mymodule/path"]
+        args:
+          [
+            "markdown",
+            "table",
+            "./envs/dev/network",
+            "--output-file",
+            "README.md",
+          ]
