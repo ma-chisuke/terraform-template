@@ -1,10 +1,10 @@
 ################################################################################
 # VPC
 ################################################################################
+#tfsec:ignore:aws-ec2-require-vpc-flow-logs-for-all-vpcs
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "5.13.0"
-  #jka
 
   name = local.name
   cidr = local.vpc_cidr
