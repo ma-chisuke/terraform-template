@@ -18,5 +18,27 @@ terraform apply
 [Terraform Registry](https://registry.terraform.io/namespaces/terraform-aws-modules)のモジュールを使用する事を優先して検討してください。
 
 <!-- BEGIN_TF_DOCS -->
+## Requirements
 
+No requirements.
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Inputs
+
+No inputs.
+
+## Outputs
+
+No outputs.
 <!-- END_TF_DOCS -->
