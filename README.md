@@ -16,3 +16,7 @@ terraform apply
 ## 開発方針
 
 [Terraform Registry](https://registry.terraform.io/namespaces/terraform-aws-modules)のモジュールを使用する事を優先して検討してください。
+
+<!-- BEGIN_TF_DOCS -->
+
+<!-- END_TF_DOCS -->
