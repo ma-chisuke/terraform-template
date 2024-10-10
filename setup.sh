@@ -2,7 +2,7 @@
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
     echo "This is macOS"
-    brew install pre-commit terraform-docs tflint tfsec
+    brew install pre-commit terraform-docs tflint trivy
 elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
     if grep -q Microsoft /proc/version; then
         echo "This is Windows (WSL)"

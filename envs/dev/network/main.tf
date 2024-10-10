@@ -1,7 +1,7 @@
 ################################################################################
 # VPC
 ################################################################################
-#tfsec:ignore:aws-ec2-require-vpc-flow-logs-for-all-vpcs
+#tfsec:ignore:avd-aws-0017
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "5.13.0"
