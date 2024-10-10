@@ -7,7 +7,12 @@ repos:
       - id: terraform_tflint
       # - id: terraform_tfsec
       - id: terraform_docs
-        args: ["--output-file", "README.md", "./envs/dev/network"]
+        args:
+          - --hook-config=--path-to-file=README.md
+          - --hook-config=--add-to-existing-file=true
+          - --hook-config=--create-file-if-not-exist=true
+
+        # args: ["--output-file", "README.md", "./envs/dev/network"]
         # args:
         #   [
         #     "markdown",
